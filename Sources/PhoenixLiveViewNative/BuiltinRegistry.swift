@@ -39,6 +39,8 @@ struct BuiltinRegistry {
             } else {
                 PhxNavigationLink(element: element, context: context)
             }
+        case "map":
+            PhxMap(element: element, context: context)
         case "list":
             PhxList<R>(element: element, context: context)
         case "rectangle":
